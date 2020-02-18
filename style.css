@@ -11,10 +11,14 @@
 }
 
 #sidebar ul li{
-	padding: 1rem 0 1.5rem 0;
-	margin: 0.5rem 0;
+	padding: 1.5rem 0 1.5rem 0;
+	//margin: 0.5rem 0;
 	text-align:center;
 	border-bottom: 1px solid rgba(100,100,100,0.5);
 	font: 500 1rem arial;
 	color: #aaaaaa;
+}
+
+#sidebar ul li:hover{
+	background-color:rgba(100,100,100,0.5);
 }
