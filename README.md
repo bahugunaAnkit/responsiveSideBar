@@ -10,7 +10,7 @@ Steps:
 5.) add transition property through js - 	
 		i.)create a css style with a negative margin to hide the menu  
 		ii.)activate the style with the help of js class  
-Started with a div for the sidebar, and inside it an unordered list with 3 list-items.   
+Started with a div for the sidebar, and inside it an unordered list with 3 list-items.  
 The div got an id "sidebar".  
 The \<ul> and \<li> didn't get any class.  
 Styles were applied only to the sidebar and the list-items and NOT the \<ul>.  
