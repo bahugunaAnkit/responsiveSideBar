@@ -12,7 +12,7 @@ Steps:
 		ii.)activate the style with the help of js class  
 Started with a div for the sidebar, and inside it an unordered list with 3 list-items.  
 The div got an id "sidebar".  
-The /<ul> and /<li> didn't get any class.  
+The /<ul/> and /<li/> didn't get any class.  
 Styles were applied only to the sidebar and the list-items and NOT the <ul>.  
 Elements were centred using text-align:center, and padding on top and bottom.  
 <ul> is not styled at all.  
