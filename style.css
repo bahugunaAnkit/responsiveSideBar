@@ -8,6 +8,7 @@
 	position:fixed;	/*Styled later as a fix*/
 	height: 100%;
 	left:-27%;
+	transition: left 1s ease;
 }
 
 .toggleMe{			/*added class through js*/
