@@ -3,23 +3,23 @@
 	padding:0;
 } 
 
-.wrapper {
-	width:30%;		/*30% of the screen*/
-	position:fixed;	/*Styled later as a fix*/
+/*.wrapper {
+	width:30%;		/30% of the screen/
+	position:fixed;	/Styled later as a fix/
 	height: 100%;
 	left:-27%;
 	transition: left 1s ease;
 }
 
-.toggleMe{			/*added class through js*/
+.toggleMe{			/added class through js/
 	left:0;
 }
 
 #sidebar{
 	background: #151719;
-	width: 90%;		/*90% of the wrapper*/
+	width: 90%;		/90% of the wrapper/
 	position: absolute;
-	height: 100%;	/*100% of the screen height*/
+	height: 100%;	/100% of the screen height/
 }
 
 #sidebar ul li{
@@ -45,7 +45,7 @@
 	height: 1.4rem;
 	width: 1.4rem;
 	position:absolute;
-	left:90%;	/*90% of wrapper*/
+	left:90%;	/90% of wrapper/
 	transition: transform 1s;
 	overflow:hidden;
 }
@@ -58,7 +58,52 @@
 	background-color:#151617;
 	height:0.2rem;
 	position:relative;
-	display:block; /*added later as a fix for invisibility*/
+	display:block; /added later as a fix for invisibility/
 	width:1rem;
 	margin:0.2rem;
+}
+*/
+
+.wrapper{
+	position: fixed;
+	width: 30%;
+	height: 100%;
+	display:flex;
+	flex-flow: row no-wrap;
+	justify-content: space-between;
+}
+
+#sidebar{
+	background-color: #151617;
+	position: relative;
+	height: inherit;
+	width: 90%
+}
+
+#sidebar-btn{
+	background-color: #151617;
+	position: relative;
+	height: 2rem;
+	width: 9%;
+}
+
+#sidebar ul{
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: stretch;
+	text-align: center;
+}
+
+#sidebar ul li{
+	list-style: none;
+	padding:1.4rem;
+	width: inherit;
+	border-bottom: 1px solid rgba(100,100,100,0.5);
+}
+#sidebar ul li a{
+	text-decoration: none;
+	color: rgba(150,150,150,1);
+	padding:inherit;
 }
