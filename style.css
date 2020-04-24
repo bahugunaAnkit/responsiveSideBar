@@ -2,8 +2,8 @@
 	margin:0;
 	padding:0;
 } 
-
-/*.wrapper {
+/*
+.wrapper {
 	width:30%;		/30% of the screen/
 	position:fixed;	/Styled later as a fix/
 	height: 100%;
@@ -71,6 +71,12 @@
 	display:flex;
 	flex-flow: row no-wrap;
 	justify-content: space-between;
+	left: -28.2%;
+	transition: left 1s ease;
+}
+
+.toggleMe{
+	left: 0;
 }
 
 #sidebar{
@@ -92,7 +98,7 @@
 #sidebar ul li{
 	flex: 0 0 auto;
 	list-style: none;
-	padding:1.4rem;
+	padding:1.5rem;
 	width: inherit;
 	border-bottom: 1px solid rgba(100,100,100,0.5);
 }
@@ -115,6 +121,11 @@
 	display: flex;
 	flex-flow: column;
 	justify-content: space-around;
+	transition: transform 1s ease;
+}
+
+.rotate{
+	transform: rotate(360deg);
 }
 
 #sidebar-btn span{
